@@ -2,15 +2,8 @@ fn main() {
     // array
 
 
-    let mut array: [i8; 5] = [1, 2, 3, 4, 5];
-    //                         0  1  2  3  4
+    let mut arr = [7; 77];
 
-    array[2] = 10;
-    array[0] = 2;
-    array[1] = 13;
-    array[3] = 43;
-    array[4] = 1;
+    println!("{:?}", arr);
 
-    println!("{}", array[2]);
-    println!("{:?}", array);
 }
