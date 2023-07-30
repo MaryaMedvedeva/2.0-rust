@@ -2,8 +2,10 @@ fn main() {
     // array
 
 
-    let mut arr = [7; 77];
+    let array = [1, 2, 3, 4, 5, 6, 7, 8];
 
-    println!("{:?}", arr);
+    for i in array.iter() {
+        println!("{}", i);
+    }
 
 }
